@@ -56,4 +56,9 @@ setuptools.setup(
         "Topic :: Software Development :: Libraries :: Python Modules"
     ],
     python_requires='>=3.6',
+    install_requires=[
+        "PyYAML>=5.3.1",
+        "requests>=2.23.0",
+        "requests-toolbelt>=0.9.1",
+    ],
 )
