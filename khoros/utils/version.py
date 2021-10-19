@@ -58,6 +58,9 @@ def get_latest_stable():
 
     :returns: The latest stable version in string format
     """
+    # Add a check to some configuration variable to control if we check PyPI or not
+    if True:
+        return "0.0.0"
     try:
         response = urllib.request.urlopen('https://pypi.org/pypi/khoros/json')
         pypi_data = json.loads(response.read().decode(response.info().get_param('charset') or 'utf-8'))
