@@ -28,7 +28,7 @@ version = get_version("khoros/utils/version.py")
 
 setuptools.setup(
     name="khoros",
-    version=version,
+    version="3.4.0",
     author="Jeff Shurtliff",
     author_email="jeff.shurtliff@rsa.com",
     description="Useful tools and utilities to assist in managing a Khoros Community (formerly Lithium) environment.",
